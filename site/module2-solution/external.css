@@ -1,0 +1,88 @@
+h1 {
+	font-size: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  float: left;
+}
+
+.outline {
+	box-sizing: border-box;
+	border: 1px solid black;
+	background-color: gray;
+  	float: left;	
+  	padding: 15px;		
+	
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  } 
+  .col-md-6 {
+    width: 50%;
+  } 
+
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-xs-12 {		
+    float: left;		    	
+    width: 100%;
+  }
+}
+
+.padding {
+	box-sizing: border-box;
+	padding: 15px;
+	background-color: lightblue;
+	float: left;
+}
+
+.item {
+	float: right;
+	clear: both;
+	width: 250px;
+	text-align: center;
+	font-size: 24px;
+	font-style: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+#item1 {
+	background-color: lightpink;
+}
+
+#item2 {
+	background-color: red;
+	color: white;
+}
+
+#item3 {
+	background-color: beige;
+}	
+
+.description {
+	float: left;
+}
